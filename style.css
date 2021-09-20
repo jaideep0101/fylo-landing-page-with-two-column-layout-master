@@ -1,0 +1,288 @@
+
+    .btn {
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        height: 50px;
+        line-height: 24px;
+       margin-left: 10px;
+        font-family: Arial;
+        width: 200px;
+        font-size: 25px;
+        font-weight: 100;
+        padding: 30px;
+        background-color: #3065F8;
+        border: solid #1E62D0 1px;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+     }
+     
+     .btn:hover {
+        border: solid #3D94F6 1px;
+        background: #3D94F6;
+        background-image: -webkit-linear-gradient(top, #3D94F6, #3D94F6);
+        background-image: -moz-linear-gradient(top, #3D94F6, #3D94F6);
+        background-image: -ms-linear-gradient(top, #3D94F6, #3D94F6);
+        background-image: -o-linear-gradient(top, #3D94F6, #3D94F6);
+        background-image: -webkit-gradient(to bottom, #3D94F6, #3D94F6);
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        text-decoration: none;
+     }
+     h6,.card-about p{
+        display: inline-block;
+        position: absolute;
+    }
+
+     #signup,#footer
+     {
+         color:white;
+     }
+
+h1,h2{
+
+    font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+p{
+     font-family: 'Open Sans', sans-serif;
+}
+
+/* title section */
+
+#title
+{
+ padding:5% 8% ;
+}
+.nav-item
+{
+    margin-left:2rem; 
+    
+}
+a.nav-link
+{
+    color:hsl(243, 87%, 12%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title-text
+{
+    padding:10% 0 0;
+ 
+}
+.title-text p{
+    width:80%
+}
+.email-1
+{
+    width:50%;
+    height:50px;
+    padding-left:15px;
+    border-radius: 3px;
+}
+.illustration-1
+{
+    padding:6% 2%;
+
+}
+/* features section */
+#features
+{
+    background-image:url('images/bg-curve-desktop.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding:6% 0 0 0 ;
+}
+.features-section
+{
+ background-color:hsl(240, 75%, 98%) ;
+ padding:0 8% 6% ;
+
+ 
+}
+.features-text
+{
+    padding: 5% 15% 0 5%; 
+
+}
+.features-text h1{
+   padding-bottom: 15px;
+}
+.features-text p{
+     margin:15px 0;
+  width: 70%;
+}
+.link-box
+{
+    display: inline;
+border-bottom-style: solid;
+color: hsl(170, 45%, 43%);
+border-bottom-width:2px ;
+padding-bottom: 3px;
+
+}
+.link {
+text-decoration: none;
+color: hsl(170, 45%, 43%);
+}   
+
+.icon-quotes
+{
+    width:10%;
+}
+.card
+{
+    width:50%; 
+    height:auto;
+    margin: 1rem 0 0 0;
+  
+    padding:1rem 2rem;
+}
+.card p
+{
+    width:100%;
+   margin:1rem 0 1rem 0;
+    display: inline-block;
+}
+
+.avatar-img
+{
+    width:20%;
+    border-radius:90px;
+}
+.card-about
+{
+    position: relative;
+}
+.illustration-1,.illustration-2
+{
+width: 100%;
+height:auto;
+}
+
+h6{
+    top:.5rem;
+    left:4.5rem;
+}
+ .card-about p{
+    top:.8rem;
+    left:4.5rem;
+    font-size: 12px;
+    
+}
+.illustration-2
+ { padding:15% 5% 15% 0 ; 
+ }
+
+/* signup section */
+#signup
+{
+    padding:6% 8%;
+    background-color:hsl(238, 22%, 44%) ; 
+}
+.signup-text h2
+{
+margin:0 0 1.5rem;
+}
+.signup-text p
+{
+width:75%;
+}
+.signup-input
+{
+    display: block;
+    width:100%;
+    height:3rem;
+    padding:15px;
+    border-radius: 3px;
+}
+.btn-2
+{
+    
+    display: block;
+    width:200px;
+    height:3rem;
+    margin:1rem 0 0 0;
+   
+}
+
+/* footer section */
+
+#footer{
+    padding:6% 8%;
+    background-color:#070439;
+}
+.logo-2
+{
+ margin:0 0 2rem 0;
+}
+span
+{
+ margin-right:20px;
+}
+
+@media (max-width:1110px)
+{
+    body,#title
+    {
+    height:auto;
+    }
+    .logo-1,.email-1, #title, body,.title-text p,.btn-2,.card, .signup-text p
+    {
+     width:100%;
+    }
+    .nav-item,.navbar-brand,.btn-1,.features-text p
+    {
+    margin:0;
+    }
+    .illustration-2, .contact,.features-section
+    {
+     padding:2rem 0;
+    }
+    .title-row, .features-section
+    {
+    flex-direction: column-reverse;
+    }
+    .features-text h2, #signup, .social-logo,.title-text
+    {
+     text-align: center; 
+    }
+    a.nav-link,.features-text p{
+    padding:.5rem .5rem;
+    }
+    #title
+    {
+    padding:2rem .5rem;
+    }
+    .navbar-brand
+    {
+     display: inline;
+     width:30%;
+    padding:0;
+    }
+    .title-text p
+    {
+      padding:1rem .5rem;
+    }
+    .btn-1,.logo-2
+    {
+      
+     margin:1rem 0;
+    }
+    .link-box
+    {
+        margin: 5rem;
+
+    }
+    .card, #footer{
+        padding:3rem;
+    }
+    #signup
+    {
+        padding:2rem ;
+    }
+
+}
